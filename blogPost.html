@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Blog Post</title>
+</head>
+<body style="background-image: url(pastelBackground1.jpg)">
+<style>
+input[type=text], select, textarea {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+input[type=submit], select
+{
+  width: 20%;
+  padding: 12px 20px;
+  border: 2px solid #e699ff;
+  display: inline-block;
+  font-size: 1.5vw;
+  font-family: "Georgia";
+  align: center;
+}
+</style> 
+<div align="center" style="font-size:2vw;"">
+	<form action="blogHandler.php" method="POST">
+		<br>
+		<h2><u>What are you feeling?</u></h2>
+		<br>
+		Create a <b>Title</b>
+		<br>
+		<input name="blogTitle" type="text"/>
+		<br>
+		What do you want to <b>Say?</b>
+		<br>
+		<input name="blogContent" type="text" style="height: 200px; float: top"/>
+		<br>
+		Click Here to Submit
+		<br>
+		<input name="Submit" type="submit"/>
+		<br>
+		<br>
+		<br>
+	</form>
+</div>
+
+
+</body>
+</html>

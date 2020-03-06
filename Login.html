@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Login</title>
+</head>
+<body style="background-image: url(pastelBackground1.jpg)">
+<style>
+input[type=text], select {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit], select
+{
+  width: 20%;
+  padding: 12px 20px;
+  border: 2px solid #e699ff;
+  display: inline-block;
+  font-size: 1.5vw;
+  font-family: "Georgia";
+  align: center;
+}
+</style>
+</body>
+<div align="center" style="font-size:2vw;"">
+	<form action="loginHandler.php" method="POST">
+		<br>
+		<h2><u>If you already have an account, Login using your Username and Password below</u></h2>
+		<br>
+		Enter your <b>Username</b>
+		<br>
+		<input name="username" type="text"/>
+		<br>
+		Enter your <b>Password</b>
+		<br>
+		<input name="password" type="text"/>
+		<br>
+		Click Here to Submit
+		<br>
+		<input name="Submit" type="submit"/>
+		<br>
+		<br>
+		<br>
+	</form>
+	<a href="index.html">Back to Homepage?</a>
+</div>
+
+</html>

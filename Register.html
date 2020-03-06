@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Registration Form</title>
+</head>
+
+<body style="background-image: url(pastelBackground1.jpg)"> 
+<style>
+input[type=text], select {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+input[type=submit], select
+{
+  width: 20%;
+  padding: 12px 20px;
+  border: 2px solid #e699ff;
+  display: inline-block;
+  font-size: 1.5vw;
+  font-family: "Georgia";
+  align: center;
+}
+</style>
+</body>
+<div align="center" style="font-size:2vw; font-family: Georgia;">
+	<form action="pageHandler.php" method="POST">
+		<br>
+		<h2><u>Sign up for a New account by filling out the form below :)</u></h2>
+		Let's start by telling us your Name...
+		<br>
+		<br>
+		Please enter your <b>First Name</b>
+		<br>
+		<input name="FirstName" type="text"/>
+		<br><br>
+		Please enter your <b>Last Name</b>
+		<br>
+		<input name="LastName" type="text"/>
+		<br><br>
+		Now it's time create your Username and Password!
+		<br><br>
+		Enter your <b>Username</b>
+		<br>
+		<input name="username" type="text"/>
+		<br><br>
+		Enter your <b>Password</b>
+		<br>
+		<input name="password" type="text"/>
+		<br><br>
+		That's all for now! Click the Submit button below to continue.
+		<br>
+		<input name="Submit" type="submit" />
+		<br>
+	</form>
+</div>
+	
+
+</html>
